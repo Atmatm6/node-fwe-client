@@ -1,4 +1,6 @@
-# node-fwe-client
+# node-fwe-client 
+[![Build Status](https://travis-ci.org/Atmatm6/node-fwe-client.svg?branch=master)](https://travis-ci.org/Atmatm6/node-fwe-client)
+[![NPM](https://nodei.co/npm/fakeweatherclient.png)](https://nodei.co/npm/fakeweatherclient/)
 This client is an interface to [my FWE](http://dollopos.ga/weather).
 
 ## Example
