@@ -1,8 +1,8 @@
 var assert = require('assert');
 describe('weather', function () {
     it('should recieve the weather object', function (done) {
-        var Weather = require('../');
-        var weather = new Weather();
+        var WeatherClient = require('../');
+        var weather = new WeatherClient();
         weather.on('weather', () => {
             try {
                 assert.notEqual(weather.getWeather(), null);
