@@ -12,4 +12,4 @@ fwe.on('weather',function(weather){
 })
 ```
 
-[Documetation](https://github.com/Atmatm6/node-fwe-client/blob/master/DOCS.md)
+[Documentation](https://github.com/Atmatm6/node-fwe-client/blob/master/DOCS.md)

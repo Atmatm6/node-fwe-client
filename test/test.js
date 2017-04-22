@@ -5,6 +5,7 @@ describe('weather', function () {
         var weather = new WeatherClient();
         weather.on('weather', () => {
             try {
+                console.log(weather.getWeather())
                 assert.notEqual(weather.getWeather(), null);
                 done();
             } catch (err) {

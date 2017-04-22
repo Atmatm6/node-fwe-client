@@ -19,6 +19,7 @@
       - [date.week](#dateweek)
       - [date.month](#datemonth)
       - [date.dayofmonth](#datedayofmonth)
+    - [weather](#weather-1)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -53,3 +54,6 @@ There are only four weeks in a fake month, so account for that.
 ##### date.month
 ##### date.dayofmonth
 As self explanatory as date.dayofweek, it's the day of the month.
+#### weather
+The integer specifying the current weather state.
+The states are: 0-sunny 1-cloudy 2-rainy 3-stormy 4-snowy
